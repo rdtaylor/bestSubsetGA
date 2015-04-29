@@ -1,0 +1,17 @@
+Package: bestSubsetGA
+Title: Genetic algorithm for optimal variable subsets.
+Version: 0.1
+Authors@R: person("Ross", "Taylor", email = "ross.duncan.taylor@zoho.com",
+                  role = c("aut", "cre"))
+Description: This package contains tools for discovering optimal subsets in
+    modeling.
+Depends:
+    R (>= 3.0)
+License: MIT + file LICENSE
+LazyData: true
+Imports:
+    foreach
+Suggests:
+    doMC,
+    devtools,
+    testthat
